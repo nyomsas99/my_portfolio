@@ -10,55 +10,6 @@ body {
   /* min-height: 4000px; */
 }
 
-.hero::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(../img/roses-3072698_1280.jpg);
-  background-repeat: no-repeat;
-  z-index: -1;
-  filter: brightness();
-  background-size: cover;
-  background-position: center;
-}
-
-.hero {
-  position: relative;
-  min-height: 100vh;
-  /* background-color: var(--bg); */
-}
-
-.hero h1,
-.hero h4,
-.hero p {
-  text-shadow: var(--shadow);
-  /* color: darkcyan; */
-}
-.hero h1 {
-  font-family: "Sacramento", "cursive";
-  font-size: 6rem;
-}
-.hero h4 {
-  font-size: 1.6rem;
-}
-.hero p {
-  font-size: 1.4rem;
-}
-
-.hero a {
-  color: var(--pink);
-  background-color: white;
-}
-
-.hero a:hover {
-  background-color: var(--pink);
-  color: white;
-  box-shadow: var(--shadow);
-}
-
 .mynavbar {
   background-color: rgba(255, 255, 255, 0.5) !important;
   backdrop-filter: blur(4px);
@@ -85,7 +36,7 @@ body {
   background-size: cover;
   background-position: center;
   width: 100%;
-  color: azure;
+  color: #fff;
   background-repeat: no-repeat;
 }
 .jumbo h2 {
@@ -124,7 +75,7 @@ body {
 .home .couple img {
   width: 100%;
 }
-.home .heart {
+/* .home .heart {
   width: 50px;
   height: 50px;
   background-color: white;
@@ -138,7 +89,7 @@ body {
 .home .heart i {
   margin: auto;
   color: var(--pink);
-}
+} */
 
 .info {
   background-color: var(--bg);
