@@ -64,9 +64,9 @@ body {
   font-size: 1.1rem;
   text-align: justify;
 }
-.home .couple {
+/* .home .couple {
   margin-top: 100px;
-}
+} */
 .home .couple h3 {
   font-family: "Sacramento";
   font-size: 2.4rem;
@@ -75,21 +75,6 @@ body {
 .home .couple img {
   width: 100%;
 }
-/* .home .heart {
-  width: 50px;
-  height: 50px;
-  background-color: white;
-  display: flex;
-  border-radius: 50%;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%) translateY(65px);
-}
-.home .heart i {
-  margin: auto;
-  color: var(--pink);
-} */
 
 .info {
   background-color: var(--bg);
@@ -261,12 +246,7 @@ body {
   html {
     font-size: 75%;
   }
-  .simply-countdown > .simply-section {
-    padding: 70px;
-  }
-  .home .heart {
-    display: none;
-  }
+
   .timeline::after {
     left: 65px;
   }
@@ -324,8 +304,8 @@ body {
     margin: 3px;
   }
   .timeline li .timeline-img {
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
   }
   .timeline li .timeline-panel {
     width: 60%;
