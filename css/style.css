@@ -11,7 +11,9 @@ body {
 }
 
 .mynavbar {
-  background-color: rgba(255, 255, 255, 0.5) !important;
+  background-color: #3eecac;
+  background-image: linear-gradient(19deg, #3eecac 0%, #ee74e1 100%);
+
   backdrop-filter: blur(4px);
 }
 .mynavbar .offcanvas {
@@ -31,12 +33,10 @@ body {
 }
 .jumbo {
   background-color: #eee;
-  padding-top: 10rem;
+  padding-top: 5rem;
   background-image: url(../img/gb1.jpg);
-
   background-size: cover;
   background-position: center;
-
   color: #fff;
   background-repeat: no-repeat;
 }
@@ -85,7 +85,8 @@ body {
 }
 .info h2,
 .story h2,
-.galery h2 {
+.galery h2,
+.skill h2 {
   color: var(--pink);
   font-family: "Sacramento";
   font-size: 5rem;
@@ -117,7 +118,8 @@ body {
   margin-bottom: 1rem;
 }
 .story p,
-.galery p {
+.galery p,
+.skill p {
   font-size: 1rem;
   font-weight: 300;
 }
@@ -231,7 +233,10 @@ body {
   right: auto;
 }
 .galery {
-  background-color: #fff;
+  background-color: #eee;
+}
+.skill h4 p {
+  font-weight: bold;
 }
 
 /* media query */
