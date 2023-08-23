@@ -32,10 +32,11 @@ body {
 .jumbo {
   background-color: #eee;
   padding-top: 10rem;
-  background-image: url(../img/gb2.jpg);
+  background-image: url(../img/gb1.jpg);
+
   background-size: cover;
   background-position: center;
-  width: 100%;
+
   color: #fff;
   background-repeat: no-repeat;
 }
@@ -65,16 +66,16 @@ body {
   text-align: justify;
 }
 /* .home .couple {
-  margin-top: 100px;
+  margin-top: 200px;
 } */
 .home .couple h3 {
   font-family: "Sacramento";
   font-size: 2.4rem;
   color: var(--pink);
 }
-.home .couple img {
+/* .home .couple img {
   width: 100%;
-}
+} */
 
 .info {
   background-color: var(--bg);
@@ -316,5 +317,11 @@ body {
   }
   .timeline li .timeline-panel::after {
     top: 31px;
+  }
+  .jumbo {
+    padding-top: 28rem;
+  }
+  .home {
+    padding-top: 5rem;
   }
 }
