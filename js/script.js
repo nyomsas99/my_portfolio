@@ -25,9 +25,18 @@ floating_btn.addEventListener("click", () => {
 close_btn.addEventListener("click", () => {
   social_panel_container.classList.remove("visible");
 });
-
-const abt = document.querySelector(".abt");
-
-abt.addEventListener("mouseenter", () => {
-  abt.style.backgroundColor = "rgb(100, 50, 120)";
+// form
+window.addEventListener("load", function () {
+  const form = document.getElementById("my-form");
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    const action = e.target.action;
+    fetch(action, {
+      method: "POST",
+      body: data,
+    }).then(() => {
+      alert("Pesan anda terkirim!");
+    });
+  });
 });

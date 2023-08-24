@@ -430,6 +430,16 @@ footer {
   font-size: 1.5rem;
 }
 /* media query */
+@media screen and (max-width: 300px) {
+  .social-panel-container.visible {
+    transform: translateX(0px);
+  }
+
+  .floating-btn {
+    right: 10px;
+  }
+}
+
 /* extra large */
 @media (max-width: 1200px) {
   .home .heart {
