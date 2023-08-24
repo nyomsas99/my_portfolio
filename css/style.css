@@ -529,4 +529,10 @@ footer {
   /* .home {
     padding-top: 5rem;
   } */
+  div {
+    overflow-x: hidden;
+  }
+  body {
+    overflow-x: hidden;
+  }
 }
