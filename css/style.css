@@ -429,6 +429,7 @@ body {
 footer {
   font-size: 1.5rem;
 }
+
 /* media query */
 @media screen and (max-width: 300px) {
   .social-panel-container.visible {
