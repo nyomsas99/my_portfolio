@@ -40,3 +40,25 @@ window.addEventListener("load", function () {
     });
   });
 });
+// scrol; button
+const rootElement = document.querySelector(":root");
+function disableScroll() {
+  scrollTop = window.pageYOffset || document.elementFromPoint.scrollTop;
+  scrollLeft = window.pageXOffset || document.elementFromPoint.scrollLeft;
+
+  window.onscroll = function () {
+    window.scrollTo(screenTop, screenLeft);
+  };
+
+  rootElement.style.scrollBehavior = "auto";
+}
+
+function enableScroll() {
+  window.onscroll = function () {
+    rootElement.style.scrollBehavior = "smooth";
+    localStorage.setItem("opened", "true");
+  };
+}
+if (!localStorage.getItem("opened")) {
+  disableScroll();
+}
