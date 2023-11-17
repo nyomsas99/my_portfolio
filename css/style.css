@@ -6,7 +6,8 @@
 
 body {
   font-size: 2rem;
-  font-family: "Work Sans", sans-serif;
+  /* font-family: "Work Sans", sans-serif; */
+  font-family: "Glass Antiqua", cursive;
   /* min-height: 4000px; */
 }
 
@@ -22,7 +23,8 @@ body {
 
 .mynavbar .navbar-brand,
 .mynavbar .offcanvas-title {
-  font-family: "Sacramento", cursive;
+  /* font-family: "Sacramento", cursive; */
+  font-family: "Noto Serif", serif;
   font-size: 3.2rem;
   font-weight: bold;
 }
@@ -62,7 +64,7 @@ body {
 }
 .home h2 {
   color: var(--pink);
-  font-family: "Sacramento";
+  font-family: "Kalam", cursive;
   font-size: 5rem;
   font-weight: bold;
 }
@@ -101,7 +103,7 @@ body {
 .project h2,
 .contact h2 {
   color: var(--pink);
-  font-family: "Sacramento";
+  font-family: "Kalam", cursive;
   font-size: 5rem;
   font-weight: bold;
 }
