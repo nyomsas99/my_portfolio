@@ -12,8 +12,14 @@ body {
 }
 
 .mynavbar {
-  background-color: #3eecac;
-  background-image: linear-gradient(19deg, #3eecac 0%, #ee74e1 100%);
+  /* background-color: #3eecac; */
+  /* background-image: linear-gradient(19deg, #3eecac 0%, #ee74e1 100%); */
+  background-image: linear-gradient(
+    89.9deg,
+    rgba(255, 243, 110, 1) 16.9%,
+    rgba(30, 204, 214, 1) 55.1%,
+    rgba(5, 54, 154, 1) 90.7%
+  );
 
   backdrop-filter: blur(4px);
 }
@@ -25,7 +31,7 @@ body {
 .mynavbar .offcanvas-title {
   /* font-family: "Sacramento", cursive; */
   font-family: "Noto Serif", serif;
-  font-size: 3.2rem;
+  font-size: 5.2rem;
   font-weight: bold;
 }
 
